@@ -10,6 +10,13 @@
 🎓 B.Tech – Artificial Intelligence & Data Science  
 🏫 Amrita Vishwa Vidyapeetham  
 
+## 👥 Team Members
+
+- Harikrishna S – CB.AI.U4AID23011  
+- Deepak Kumar – CB.AI.U4AID23012   
+
+---
+
 ## 🌟 Project Overview (Clear Explanation)
 
 This project is designed to solve a real-world problem:
