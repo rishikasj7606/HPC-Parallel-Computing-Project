@@ -1,56 +1,61 @@
 # 🚨 Real-Time Disaster Response Summarization using LLM + HPC
 
-> ⚡ A High-Performance Computing (HPC) powered AI system for real-time disaster data ingestion, processing, and intelligent summarization using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).
+> ⚡ A scalable AI-powered system that uses **High Performance Computing (HPC)** and **Large Language Models (LLMs)** to process real-time disaster data and generate meaningful summaries for faster decision-making.
 
 ---
 
-## 👥 Team Members
+## 👩‍💻 Author
 
-- **Harikrishna S** – CB.AI.U4AID23011  
-- **Deepak Kumar** – CB.AI.U4AID23012  
-- **Somavaram J Rishika** – CB.AI.U4AID23038  
+**Somavaram J Rishika**  
+🎓 B.Tech – Artificial Intelligence & Data Science  
+🏫 Amrita Vishwa Vidyapeetham  
 
----
+## 🌟 Project Overview (Clear Explanation)
 
-## 🌟 Overview
+This project is designed to solve a real-world problem:
 
-This project focuses on building a **scalable, real-time disaster intelligence system** that:
+👉 During disasters (floods, earthquakes, etc.), huge amounts of data come from different sources.  
+👉 It is difficult to process and understand this data quickly.  
 
-- 📡 Collects disaster-related data from multiple APIs in parallel  
-- 🧹 Cleans and standardizes incoming data  
-- 🗄 Stores structured data efficiently using MongoDB  
-- 🤖 Uses LLMs for classification and summarization  
-- 🔍 Enhances responses using a **RAG (Retrieval-Augmented Generation) pipeline**  
-- ☁️ Deploys seamlessly using containerized cloud infrastructure  
+### 💡 Our Solution:
+We built a system that:
 
----
+- 📡 Collects disaster-related data from multiple APIs **in real-time**
+- ⚡ Uses **parallel computing (HPC)** to process data faster
+- 🧹 Cleans and standardizes data into a structured format
+- 🗄 Stores it efficiently using MongoDB
+- 🤖 Uses **LLMs** to generate meaningful summaries
+- 🔍 Uses **RAG (Retrieval-Augmented Generation)** for context-aware responses
 
-## 🎯 Key Highlights
-
-- ⚡ **Low-Latency Data Ingestion** using AsyncIO & parallel APIs  
-- 🧠 **AI-Powered Summarization** using fine-tuned LLMs  
-- 🔍 **Context-Aware Insights** via RAG architecture  
-- 🗃 **Efficient Storage & Retrieval** with MongoDB indexing  
-- 🐳 **Cloud-Ready Deployment** using Docker & containerization  
-- 🚀 **Scalable HPC Pipeline** for high-throughput processing  
+➡️ Final Output:  
+**Clear, accurate, and real-time disaster summaries for decision-making**
 
 ---
 
-## ⚙️ System Architecture
+## 🎯 Objectives
+
+- Reduce delay in disaster data processing  
+- Provide real-time summarized insights  
+- Improve decision-making using AI  
+- Build a scalable and efficient HPC-based pipeline  
+
+---
+
+## ⚙️ System Workflow
 
 ```text
-🌐 API Sources
-     ↓
-⚡ Async Data Ingestion (AsyncIO)
-     ↓
+🌐 Multiple APIs (Disaster Data)
+        ↓
+⚡ Parallel Data Collection (AsyncIO)
+        ↓
 🧹 Data Cleaning & Validation (Pydantic)
-     ↓
-🗄 MongoDB (Indexed Storage)
-     ↓
-🧠 Model Processing (HPC + Multiprocessing)
-     ↓
+        ↓
+🗄 MongoDB Storage (Indexed)
+        ↓
+🧠 HPC Processing (Multiprocessing)
+        ↓
 🔍 RAG Pipeline (Retrieval + LLM)
-     ↓
-📊 Real-Time Disaster Insights
-     ↓
-☁️ Dockerized Cloud Deployment
+        ↓
+📊 Real-Time Summarized Output
+        ↓
+☁️ Docker + Cloud Deployment
